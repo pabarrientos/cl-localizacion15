@@ -24,7 +24,7 @@
     'category': 'Tools',
     'summary': "Test for v15 CE",
     'author': "jeo Software",
-    'website': 'http://github.com/jobiols/cl-test',
+    'website': 'http://github.com/filoquin/cl-localizacion15',
     'license': 'AGPL-3',
     'depends': [
         'standard_depends_ce'
@@ -135,7 +135,6 @@
         'https://github.com/OCA/brand rest-brand',
         'https://github.com/OCA/report-print-send oca-report-print-send',
         'https://github.com/OCA/server-brand oca-server-brand',
-        'https://github.com/OCA/oca-custom oca-oca-custom',
         'https://github.com/OCA/business-requirement oca-business-requirement',
         'https://github.com/OCA/commission oca-commission',
         'https://github.com/OCA/product-pack oca-product-pack',
