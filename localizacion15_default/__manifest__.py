@@ -154,9 +154,6 @@
 
         # ingadhoc
         'https://github.com/ingadhoc/product ingadhoc-product',
-
-        'https://github.com/ingadhoc/odoo-argentina-ce.git ingadhoc-argentina-ce',
-
         'https://github.com/ingadhoc/miscellaneous ingadhoc-miscellaneous',
         'https://github.com/ingadhoc/sale ingadhoc-sale',
         'https://github.com/ingadhoc/purchase ingadhoc-purchase',
@@ -170,7 +167,6 @@
         'https://github.com/ingadhoc/argentina-sale ingadhoc-argentina-sale',
         'https://github.com/ingadhoc/stock ingadhoc-stock',
         'https://github.com/ingadhoc/partner ingadhoc-partner',
-        'https://github.com/ingadhoc/reporting-engine ingadhoc-reporting-engine',
         'https://github.com/ingadhoc/odoo-argentina-ce ingadhoc-odoo-argentina-ce',
         'https://github.com/ingadhoc/manufacture ingadhoc-manufacture',
         'https://github.com/ingadhoc/multi-store ingadhoc-multi-store',
