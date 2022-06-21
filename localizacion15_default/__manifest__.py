@@ -169,7 +169,6 @@
         'https://github.com/ingadhoc/partner ingadhoc-partner',
         'https://github.com/ingadhoc/odoo-argentina-ce ingadhoc-odoo-argentina-ce',
         'https://github.com/ingadhoc/multi-store ingadhoc-multi-store',
-        'https://github.com/ingadhoc/account-analytic ingadhoc-account-analytic',
 
     ],
 
