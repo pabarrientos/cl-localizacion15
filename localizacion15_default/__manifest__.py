@@ -170,12 +170,15 @@
         'https://github.com/ingadhoc/odoo-argentina-ce ingadhoc-odoo-argentina-ce',
         'https://github.com/ingadhoc/multi-store ingadhoc-multi-store',
 
+        # themes
+        'git@github.com:odoo/design-themes.git odoo-themes',
+        
     ],
 
     # list of images to use in the form 'name image-url'
     'docker-images': [
         'odoo jobiols/odoo-jeo:15.0',
         'postgres postgres:10.1-alpine',
-        'nginx nginx'
+        #'nginx nginx'
     ]
 }
