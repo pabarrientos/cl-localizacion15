@@ -19,10 +19,10 @@
 ##############################################################################
 
 {
-    'name': 'template',
-    'version': '13.0.1.0.0',
+    'name': 'Localizacion',
+    'version': '15.0.1.0.0',
     'category': 'Tools',
-    'summary': "Test for v13 CE",
+    'summary': "Test for v15 CE",
     'author': "jeo Software",
     'website': 'http://github.com/jobiols/cl-test',
     'license': 'AGPL-3',
@@ -64,12 +64,10 @@
                 'limit_memory_hard = 2684354560',
     ],
 
-    'port': '8069',
+    'port': '8015',
 
     'git-repos': [
-        'git@github.com:jobiols/cl-test.git',
-        'git@github.com:jobiols/odoo-jeo-ce.git',
-        'git@github.com:jobiols/odoo-private-addons.git',
+        'git@github.com:filoquin/cl-localizacion15.git',
 
         # OCA
         'https://github.com/OCA/server-tools oca-server-tools',
@@ -158,9 +156,7 @@
         # ingadhoc
         'https://github.com/ingadhoc/product ingadhoc-product',
 
-        # Cambiamos por el de filoquin
-        #'https://github.com/ingadhoc/odoo-argentina ingadhoc-odoo-argentina',
-        'https://github.com/filoquin/odoo-argentina-ce.git -b 13.0_qr',
+        'https://github.com/ingadhoc/odoo-argentina-ce.git ingadhoc-argentina-ce',
 
         'https://github.com/ingadhoc/miscellaneous ingadhoc-miscellaneous',
         'https://github.com/ingadhoc/sale ingadhoc-sale',
@@ -185,13 +181,11 @@
         'https://github.com/ingadhoc/account-analytic ingadhoc-account-analytic',
         'https://github.com/ingadhoc/project ingadhoc-project',
 
-        # Odoomates
-        'https://github.com/odoomates/odooapps odoomates-odooapps',
     ],
 
     # list of images to use in the form 'name image-url'
     'docker-images': [
-        'odoo jobiols/odoo-jeo:13.0',
+        'odoo jobiols/odoo-jeo:15.0',
         'postgres postgres:10.1-alpine',
         'nginx nginx'
     ]
