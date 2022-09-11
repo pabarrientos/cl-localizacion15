@@ -46,7 +46,7 @@
         # You should use 2 worker threads + 1 cron thread per available CPU,
         # and 1 CPU per 10 concurent users.
         # if ommited oe will calculate workers and cron´s based on # of cpu
-                'workers = 5',
+                'workers = 3',
                 'max_cron_threads = 1',
 
         # Number of requests a worker will process before being recycled and
@@ -64,10 +64,11 @@
                 'limit_memory_hard = 2684354560',
     ],
 
-    'port': '8015',
+    'port': '8016',
+    'longpolling_port': '8074',
 
     'git-repos': [
-        'git@github.com:filoquin/cl-localizacion15.git',
+        'https://github.com/pabarrientos/cl-localizacion15.git',
 
         # OCA
         'https://github.com/OCA/server-tools oca-server-tools',
@@ -169,6 +170,7 @@
         'https://github.com/ingadhoc/partner ingadhoc-partner',
         'https://github.com/ingadhoc/odoo-argentina-ce ingadhoc-odoo-argentina-ce',
         'https://github.com/ingadhoc/multi-store ingadhoc-multi-store',
+	'https://github.com/ingadhoc/odoo-argentina ingadhoc-odoo-argentina',
 
         # themes
         'git@github.com:odoo/design-themes.git odoo-themes',
